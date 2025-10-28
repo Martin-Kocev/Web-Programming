@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:method="POST" th:action="@{/test}">
+        <label for="message">
+            Message: <input type="text" id="message" name="message"/>
+        </label>
+
+        <input type="submit" th:value="Submit">
+    </form>
+</body>
+</html>
